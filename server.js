@@ -13,10 +13,10 @@ app.use(cors());
 app.use(express.json());
 app.use("/", menuRoutes);
 
-app.use(express.static(path.join(__dirname, "./zano/zano/zano1.0")));
+app.use(express.static(path.join(__dirname, "./zano")));
 
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "./zano/zano/zano1.0", "index.html"));
+  res.sendFile(path.join(__dirname, "./zano", "index.html"));
 });
 
 app.listen(PORT, () => {
