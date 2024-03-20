@@ -8,6 +8,7 @@ const menuSchema = new mongoose.Schema({
       ingredients: String,
       price: String,
       imgSrc: String,
+      tazzLink: String,
     },
   ],
 });
