@@ -1,0 +1,3 @@
+node_modules
+./zano/node_modules
+.env
