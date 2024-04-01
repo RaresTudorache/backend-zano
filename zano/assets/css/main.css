@@ -527,7 +527,7 @@ section {
 @media (max-width: 1279px) {
     .navbar {
         position: fixed;
-        top: 88px;
+        top: 68px;
         right: -100%;
         width: 100%;
         /*max-width: 400px;*/
@@ -535,6 +535,10 @@ section {
         height: 300px;
         transition: 0.3s;
         z-index: 9997;
+    }
+    .navbar.isNavOpen{
+        right: initial;
+        left:0;
     }
 
     .navbar ul {
@@ -623,6 +627,10 @@ section {
 
     .mobile-nav-active .navbar {
         right: 0;
+    }
+
+    .mobile-nav-active .navbar .hide-mobile-nav{
+        right: 100% !important;
     }
 
     .mobile-nav-active .navbar:before {
