@@ -555,7 +555,7 @@ async function main() {
     } catch (err) {
         console.error("Error seeding database:", err);
     } finally {
-        mongoose.connection.close(); // Close the connection once done
+        mongoose.connection.close();
     }
 }
 
