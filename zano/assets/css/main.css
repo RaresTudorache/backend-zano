@@ -68,57 +68,57 @@ h6 {
 }
 
 #tazzButton:hover, #facebookButton:hover, #instaButton:hover {
-    transform: scale(1.05); /* Slightly enlarges the button on hover */
+    transform: scale(1.05); 
 }
 
 /*--------------------------------------------------------------
 # Facebook button
 --------------------------------------------------------------*/
 #facebookButton {
-    position: fixed; /* Makes the button stick to the screen */
-    bottom: 20px; /* Position from the bottom */
-    left: 100px; /* Position from the right */
-    width: 60px; /* Width of the button */
-    height: 60px; /* Height of the button */
-    background-color: white; /* Button color */
-    border-radius: 50%; /* Makes the button round */
+    position: fixed; 
+    bottom: 20px;
+    left: 100px; 
+    width: 60px; 
+    height: 60px; 
+    background-color: white; 
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
-    transition: transform 0.3s ease; /* Smooth hover effect */
+    transition: transform 0.3s ease; 
 }
 
 #facebookButton img {
-    width: 100%; /* Set the SVG width to match the button width */
-    height: 100%; /* Set the SVG height to match the button height */
-    object-fit: cover; /* Make the SVG cover the entire space */
-    display: block; /* Remove any default spacing around the SVG */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block;
 }
 
 /*--------------------------------------------------------------
 # Instagram button
 --------------------------------------------------------------*/
 #instaButton {
-    position: fixed; /* Makes the button stick to the screen */
-    bottom: 20px; /* Position from the bottom */
-    left: 180px; /* Position from the right */
-    width: 60px; /* Width of the button */
-    height: 60px; /* Height of the button */
-    background-color: white; /* Button color */
-    border-radius: 50%; /* Makes the button round */
+    position: fixed;
+    bottom: 20px; 
+    left: 180px; 
+    width: 60px;
+    height: 60px; 
+    background-color: white; 
+    border-radius: 50%; 
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
-    transition: transform 0.3s ease; /* Smooth hover effect */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease; 
 }
 
 #instaButton img {
-    width: 100%; /* Set the SVG width to match the button width */
-    height: 100%; /* Set the SVG height to match the button height */
-    object-fit: cover; /* Make the SVG cover the entire space */
-    display: block; /* Remove any default spacing around the SVG */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block;
 }
 
 /*--------------------------------------------------------------
@@ -162,65 +162,6 @@ section {
 
 .section-header p span {
     color: var(--color-primary);
-}
-
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-    padding: 15px 0;
-    background: rgba(55, 55, 63, 0.05);
-    margin-top: 90px;
-}
-
-@media (max-width: 575px) {
-    .breadcrumbs {
-        margin-top: 70px;
-    }
-}
-
-.breadcrumbs h2 {
-    font-size: 24px;
-    font-weight: 400;
-    margin: 0;
-}
-
-.breadcrumbs ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 14px;
-}
-
-.breadcrumbs ol li + li {
-    padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-    display: inline-block;
-    padding-right: 10px;
-    color: #676775;
-    content: "/";
-}
-
-@media (max-width: 992px) {
-    .breadcrumbs .d-flex {
-        display: block !important;
-    }
-
-    .breadcrumbs h2 {
-        margin-bottom: 10px;
-    }
-
-    .breadcrumbs ol {
-        display: block;
-    }
-
-    .breadcrumbs ol li {
-        display: inline-block;
-    }
 }
 
 /*--------------------------------------------------------------
@@ -653,93 +594,6 @@ section {
     }
 }
 
-/*--------------------------------------------------------------
-# Why Us Section
---------------------------------------------------------------*/
-.why-us{
-    background: #212529;
-}
-.why-us .why-box {
-    padding: 30px;
-    background: var(--color-primary);
-    color: #fff;
-    border-radius: 20px;
-}
-
-.why-us .why-box h3 {
-    font-weight: 700;
-    font-size: 34px;
-    margin-bottom: 30px;
-}
-
-.why-us .why-box p {
-    margin-bottom: 30px;
-}
-
-.why-us .why-box .more-btn {
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.3);
-    padding: 6px 30px 8px 30px;
-    color: #fff;
-    border-radius: 50px;
-    transition: all ease-in-out 0.4s;
-}
-
-.why-us .why-box .more-btn i {
-    font-size: 14px;
-}
-
-.why-us .why-box .more-btn:hover {
-    color: var(--color-primary);
-    background: #fff;
-}
-
-.why-us .icon-box {
-    text-align: center;
-    background:#212529;
-    color:#fff;
-    padding: 40px 30px;
-    width: 100%;
-    height: 100%;
-    border: 1px solid white;
-    transition: 0.3s;
-    border-radius: 20px;
-}
-
-.why-us .icon-box i {
-    color: var(--color-primary);
-    margin-bottom: 30px;
-    font-size: 32px;
-    margin-bottom: 30px;
-    background: rgba(206, 18, 18, 0.1);
-    border-radius: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 64px;
-    height: 64px;
-}
-
-.why-us .icon-box h4 {
-    font-size: 20px;
-    font-weight: 400;
-    margin: 0 0 30px 0;
-    font-family: var(--font-secondary);
-}
-
-.why-us .icon-box p {
-    font-size: 15px;
-    /*color: #6c757d;*/
-    color:white;
-}
-
-@media (min-width: 1200px) {
-    .why-us .icon-box:hover {
-        transform: scale(1.1);
-    }
-}
-
-
 .menu .nav-tabs {
     border: 0;
 }
@@ -1084,7 +938,7 @@ body .slick-prev:before {
 /*--------------------------------------------------------------
 # Chefs Section
 --------------------------------------------------------------*/
-.chefs .chef-member {
+/* .chefs .chef-member {
     overflow: hidden;
     text-align: center;
     border-radius: 5px;
@@ -1096,7 +950,7 @@ body .slick-prev:before {
 .chefs .chef-member .member-img {
     position: relative;
     overflow: hidden;
-}
+} */
 
 /* .chefs .chef-member .member-img:after {
   position: absolute;
@@ -1110,7 +964,7 @@ body .slick-prev:before {
   z-index: 1;
 } */
 
-.chefs .chef-member .social {
+/* .chefs .chef-member .social {
     position: absolute;
     right: -100%;
     top: 30px;
@@ -1172,134 +1026,8 @@ body .slick-prev:before {
 .chefs .chef-member:hover .social {
     right: 8px;
     opacity: 1;
-}
+} */
 
-/*--------------------------------------------------------------
-# Book A Table Section
---------------------------------------------------------------*/
-.book-a-table .reservation-img {
-    min-height: 500px;
-    background-size: cover;
-    background-position: center;
-}
-
-.book-a-table .reservation-form-bg {
-    background: rgba(55, 55, 63, 0.04);
-}
-
-.book-a-table .php-email-form {
-    padding: 40px;
-}
-
-@media (max-width: 575px) {
-    .book-a-table .php-email-form {
-        padding: 20px;
-    }
-}
-
-.book-a-table .php-email-form h3 {
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.book-a-table .php-email-form h4 {
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 20px 0 0 0;
-}
-
-.book-a-table .php-email-form p {
-    font-size: 14px;
-    margin-bottom: 20px;
-}
-
-.book-a-table .php-email-form .error-message {
-    display: none;
-    color: #fff;
-    background: #df1529;
-    text-align: left;
-    padding: 15px;
-    margin-bottom: 24px;
-    font-weight: 600;
-}
-
-.book-a-table .php-email-form .sent-message {
-    display: none;
-    color: #fff;
-    background: #059652;
-    text-align: center;
-    padding: 15px;
-    margin-bottom: 24px;
-    font-weight: 600;
-}
-
-.book-a-table .php-email-form .loading {
-    display: none;
-    background: #fff;
-    text-align: center;
-    padding: 15px;
-    margin-bottom: 24px;
-}
-
-.book-a-table .php-email-form .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px -6px 0;
-    border: 3px solid #059652;
-    border-top-color: #fff;
-    animation: animate-loading 1s linear infinite;
-}
-
-.book-a-table .php-email-form input,
-.book-a-table .php-email-form textarea {
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-    border-radius: 0;
-}
-
-.book-a-table .php-email-form input:focus,
-.book-a-table .php-email-form textarea:focus {
-    border-color: var(--color-primary);
-}
-
-.book-a-table .php-email-form input {
-    padding: 12px 15px;
-}
-
-.book-a-table .php-email-form textarea {
-    padding: 12px 15px;
-}
-
-.book-a-table .php-email-form button[type=submit] {
-    background: var(--color-primary);
-    border: 0;
-    padding: 14px 60px;
-    color: #fff;
-    transition: 0.4s;
-    border-radius: 50px;
-}
-
-.book-a-table .php-email-form button[type=submit]:hover {
-    background: #ec2727;
-}
-
-@keyframes animate-loading {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
 /*--------------------------------------------------------------
 # Gallery Section
