@@ -1042,8 +1042,8 @@ body .slick-prev:before {
 }
 
 .gallery .swiper-pagination .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
+    width: 4px;
+    height: 4px;
     background-color: #d1d1d7;
     opacity: 1;
 }
